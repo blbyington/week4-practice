@@ -1,0 +1,162 @@
+html {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+body {
+  background: black;
+  font-family: "Lucida Sans Unicode", sans-serif;
+}
+header {
+  background-color: black;
+  width: 100%;
+  color: white;
+  padding: 1rem;
+}
+header h1 {
+  font-size: 50px;
+  font-weight: lighter;
+}
+header h4 {
+  color: darkgrey;
+  font-weight: lighter;
+}
+a.calltoaction{
+  color: red;
+  font-size: 14px;
+  left: 252px;
+  float: right;
+}
+nav {
+  background: grey;
+  color: black;
+  padding: .5em;
+  justify-content: flex-end;
+}
+nav a {
+  color: purple;
+  font-size: 24px;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+nav li {
+  float: left;
+}
+nav li a {
+  display: block;
+  padding-right: 4em;
+  padding-left: 2em;
+}
+main {
+  width: span;
+  height: 55rem;
+  background: white;
+  background-size: 25em;
+  background-repeat: repeat;
+  padding: 1em;
+}
+section {
+  background: white;
+  display: block;
+  width: 50em;
+  height: auto;
+  float: left;
+  padding-right: 2em;
+  padding-left: 1em;
+}
+aside {
+  float: right;
+  background: white;
+  border: .1em solid black;
+  width: 20em;
+  padding: 1em;
+  display: inline-block;
+  height: auto;
+  }
+/*dont touch anything...inline-block worked not block
+left then right worked. */
+.asidelink {
+  font-size: 12px;
+  text-align: right;
+  line-height: 80%;
+  }
+.testimonials {
+  font-style: italic;
+}
+figure {
+  text-align: center;
+  float: left;
+  width: 18rem;
+  overflow: auto;
+}
+figure img {
+  width: 12rem;
+}
+figcaption {
+  font-weight: bold
+}
+figure p {
+  font-size: 14px;
+  text-align: left;
+}
+div.img {
+  margin: 2em;
+  border: .5em solid grey;
+  float: left;
+  width: 180px;
+}
+
+div.img:hover {
+  border: .5em solid purple;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+/*how to make form send as an email-ask in class*/
+input[type=text] {
+  width: 45em;
+  padding: .5em;
+  margin: .5em 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: grey;
+  color: white;
+}
+.contactus{
+  width: 45em;
+}
+input[type=submit] {
+  width: 30em;
+  background-color: purple;
+  color: white;
+  padding: 1em 2em;
+  margin: 1em 0;
+  border: none;
+  border-radius: .5em;
+}
+article {
+  float: left;
+}
+footer {
+  padding-top: 2rem;
+  color: white;
+}
+footer a {
+  color: red;
+}
+.footer{
+  clear: both;
+}
+.copywright {
+  text-align: center;
+}s
